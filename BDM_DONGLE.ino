@@ -72,7 +72,7 @@ void loop() {
     sendToSerial();
   }
   // 3 readings per second
-  delay(100); 
+  delay(20); 
 }
 void convertToString(void)
 {
