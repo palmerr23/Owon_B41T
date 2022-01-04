@@ -1,0 +1,38 @@
+#author palmerr23
+#idString BDM,BDM
+#name OWON B41T+
+#handle B41T
+#port comfixedbaud
+#baudrate 19200
+;#eol \_
+#driver SingleValue
+
+#value VoltageDC V D5 DCV
+#value VoltageAC V D5 ACV
+#value CurrentDC A D5 DCA
+#value CurrentAC A D5 ACA
+#value Resistance ohm D5 Ohm
+#value Frequency Hz D5 Hz
+#value Capacitance F D5 Cap
+;#value Inductance H D5 INDH
+#value Temperature °C D5 TempC
+
+;#value Diode _ D1 DIO
+;#value Logic _ D1 LOG
+;#value Continuity _ D1 BUZ
+
+;Convert text to number, the text is removed from the input string before checking for mode
+;Besides numbers it is possible to specify OL or -OL as value
+#valueText OL OL
+;#valueText 1 OPEN
+;#valueText 0.5 GOOD
+;#valueText 0 SHORT
+;#valueText 1 HIGH
+;#valueText 0.5 UNDET
+;#valueText 0 LOW
+
+
+#interfaceType DMM
+#interface readValue 0
+
+;#askValues \r
