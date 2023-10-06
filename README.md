@@ -10,3 +10,6 @@ Together these factors make it very difficult to use these multimeters on a PC.
 This project includes code for an ESP32 based dongle that should work with any ESP32 model that has a USB port. It has been tested with an ESP32-WROVER DevkitC.
 
 The .txt file is an instrument definition file for TestController. https://lygte-info.dk/project/TestControllerScriptingExample%20UK.html
+
+# Note
+JT Cash has improved this code (July 2023) - see https://github.com/jtcash/OwonB41T/
